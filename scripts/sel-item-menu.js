@@ -16,7 +16,7 @@ let btnMenu = document.querySelectorAll('li.item-menu')
         function showCont(cont) {
             const conteudo = document.querySelector('#conteudo')
 
-            fetch(`pag/${cont}.html`)
+            fetch(`pages/${cont}.html`)
                 .then(resp => resp.text())
                 .then(html => {
                     conteudo.innerHTML = html
