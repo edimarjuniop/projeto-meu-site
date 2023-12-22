@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+#conteudo section h2 {
+    font-size: 2em;
+    text-align: center;
+
+    margin: 20px 0 20px 0;
+}
+
+#conteudo section p {
+    text-align: center;
+}
+
+
+#conteudo .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#conteudo .body .bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: #EEE;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #00000022;
+    padding: 10px;
+    min-width: 400px;
+    width: 50%;
+    max-width: 512px;
+    position: relative;
+    height: 80px;
+    margin: 10px 0 10px 0;
+}
+
+#conteudo .btn {
+    user-select: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+    min-width: 160px;
+    text-align: center;
+}
+
+#conteudo .btn:hover {
+    background-color: orange;
+    scale: 1.05;
+}
+
+#conteudo .btn a {
+    color: white;
+    text-decoration: none;
+}
+
+#conteudo .bar .image {
+    background-color: #212121;
+    background-size: contain;
+    background-position: center;
+    background-repeat:  no-repeat;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+#conteudo a {
+    color: white;
+    text-decoration: none;
+}
+
+#conteudo .youtube {
+    user-select: none;
+    margin: auto;
+    margin-top: 10xpx;
+    text-align: center;
+    background-color: red;
+    color: white;
+    width: 128px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#conteudo .github {
+    user-select: none;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #212121;
+    color: white;
+    width: 128px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#conteudo #republica-coisa-de-nerd .image {
+    background-image: url('https://yt3.googleusercontent.com/ytc/AIf8zZSOtsJwGs7FZUacNuhp6sSpJNapd0Ab_g3e-CXFbw=s176-c-k-c0x00ffffff-no-rj');
+}
+
+#conteudo #coisa-de-nerd .image {
+    background-image: url('https://yt3.googleusercontent.com/Lc1_3K6gFGwQfY5BaVAK82g18Ryv-Z3WJONafw3tukUa9-Htz0WDcEmtZazzMAeihphYFtIlsQ=s176-c-k-c0x00ffffff-no-rj');
+}
+
+#conteudo #curso-em-video .image {
+    background-image: url('https://yt3.googleusercontent.com/ytc/AIf8zZRYHOFJ7HTJ1lBhlBVZUIi1Exp7Y-ajfHlyNoIR_w=s176-c-k-c0x00ffffff-no-rj');
+}
+
+#conteudo #nofaxu .image {
+    background-image: url('https://yt3.googleusercontent.com/ytc/AIf8zZSmwhAvhimt-BSv0nbeBoA3n__Q_MqW5gUpwbhnEw=s176-c-k-c0x00ffffff-no-rj');
+}
+
+#conteudo #ciencia-todo-dia .image {
+    background-image: url('https://yt3.googleusercontent.com/ytc/AIf8zZS0CT87IzCf0xpSoK4Nz1YsB7UfYDIZH33r4FN_wQ=s176-c-k-c0x00ffffff-no-rj');
+}

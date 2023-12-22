@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"> <!--Icones-->
+    
+    <link rel="stylesheet" href="styles/main-style.css">
+    <link rel="stylesheet" href="styles/pag-style.css">
+</head>
+<body onload="showCont('inicio')">
+    <header>
+            <h1>Menu</h1>
+        <nav class="side-menu">
+            <ul class="group-items">
+                <li class="item-menu enable" onclick="showCont('inicio')">
+                    <span><i class="bi bi-house-door"></i></span>
+                    <span>Inicio</span>
+                </li>
+                <li class="item-menu" onclick="showCont('canais-favoritos')">
+                    <span><i class="bi bi-youtube"></i></span>
+                    <span>Canais Favoritos</span>
+                </li>
+                <li class="item-menu" onclick="showCont('sobre')">
+                    <span><i class="bi bi-person"></i></span>
+                    <span>Sobre</span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="conteudo">
+        
+    </main>
+    <footer>
+        <p>Edimar Junio &copy;</p>
+    </footer>
+
+    <script src="scripts/sel-item-menu.js"></script>
+</body>
+</html>
